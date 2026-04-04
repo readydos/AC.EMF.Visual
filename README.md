@@ -215,7 +215,7 @@ public class EMFVisualizer : MonoBehaviour
 
 A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). They emit EMF and due to the electrochemical behaviour of the human brain static charge is present and affected.
 
-## Mitifations
+## Mitigations
 - Compact fluorescent Lighting
 - fluorescent tube lighting
 - Direct current
