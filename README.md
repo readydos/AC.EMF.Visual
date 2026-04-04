@@ -2,23 +2,23 @@
 
 **Hypothesis**
 
-**A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). Wiring from the circuit breaker to each outlet emits EMF (imagine an invisible tube around the wires).**
+**A person moves through a room wired with alternating current, powering ceiling lights and US/CA style outlets (😯). European and Asian style outlets are also subject to this isuue because alternating current is globally present. Wiring from the circuit breaker to each outlet emits EMF (imagine an invisible tube around the wires).**
 
-**Due to the electrochemical behaviour of the human brain such as sodium ion channels, and generally phosphorus-containing compounds contribute to the overall magnetic environment of your tissues. Static charge deltas to the human brain are present. electrochemical synapses feasibly could be triggered a la Neuralink over a distance.**
+**Due to the electrochemical behaviour of the human brain such as sodium ion channels, and generally phosphorus-containing compounds contribute to the overall magnetic environment of your tissues. Static charge deltas to the human brain can be measured leading to electrochemical synapses triggered (similarly to Neuralink although over a distance.)**
 
 ## Overview
 
-* **Electromotive Force (EMF)** concepts
+* **Electromotive Force (EMF)**
 * **Alternating Current (AC)** behavior
-* **Hardware data acquisition (Arduino or alternatives)**
-* **Real-time visualization in Unity (C# 3D)**
+* **Data acquisition via hardware (Arduino or alternatives)**
+* **Real-time visualization in Unity 3D (written in C#)**
 * **References to human biology.**
 
 The goal is to measure or simulate EMF/AC signals and visualize them dynamically in a 3D Unity environment.
 
 ---
 
-## System Architecture
+## 0otential System Architecture
 
 ### High-Level Diagram
 
@@ -90,7 +90,7 @@ At academic institutions or laboratoris could also be used to accomplish this sc
 Measuring EMI (Electrical Interference)
 can be accomplished via obtaining high-frequency electrical "noise" from the environment. You can build a DIY EMI/EMF detector using:
 
-* Antenna Probe: A simple piece of copper wire or pipe connected to one of the ESP32's Analog-to-Digital pins.
+* Antenna: A simple piece of copper wire or pipe connected to one of the ESP32's Analog-to-Digital pins.
 * Circuit Setup: You can experiment with tuning three sensitivities.
 * Visualizing Data: The equipment may process these signals and display the intensity an OLED screen ideally powered by DC (the AC of the room you're in could result in introduced noise.
 
@@ -197,11 +197,8 @@ public class EMFVisualizer : MonoBehaviour
 
 ## Visualization Ideas
 
-* 3D sine wave mesh
-* Particle systems reacting to EMF
-* Magnetic field lines
-* Oscilloscope UI
-
+* Skeletal drawing of individuals, minus the infrared requirement (Microsoft Kinect, LiDAR, etc.) while show ling the effect of the lamp powered by alternating current as they walk near it. 
+* Magnetic field lines, humidity measurements, voltage regulators for measuring and filling out the interfaces.
 ---
 
 ## Example System (Hypothetical Scene)
