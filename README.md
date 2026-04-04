@@ -7,7 +7,9 @@
 **Due to the electrochemical behaviour of the human brain, such as the sodium ion channels, phosphorus-containing compounds that contribute to the overall magnetic environment of your tissue, static charge deltas to the human brain can be measured leading to electrochemical synapses triggered (similarly to Neuralink although over a distance.)**
 
 --- 
+
 It is also worth exploring the effect of certain sources of light on the human brain.  entering the retina at particular frequencies (AC, LED) with introduced noise or manipulations. I am unable to do accomplish these experiments myself at the current moment. Although fluorescent light doesn't flicker and direct current emits an order of magnitude less EMI than alternating current. The scientific method should be applied here, although not in this article.
+
 --- 
 
 ## Overview
