@@ -12,6 +12,7 @@ This project combines:
 * **Alternating Current (AC)** behavior
 * **Hardware data acquisition (Arduino or alternatives)**
 * **Real-time visualization in Unity (C# 3D)**
+* **References to human biology.**
 
 The goal is to measure or simulate EMF/AC signals and visualize them dynamically in a 3D Unity environment.
 
@@ -72,8 +73,33 @@ Unity->>Scene: Update Visualization
 * Sends data via Serial (USB)
 
 ### 2. ESP32 (Better Performance)
+"*The ESP32 is a low-cost, low-power system on a chip (SoC) microcontroller with integrated Wi-Fi and Bluetooth, designed by Espressif Systems for IoT, wearables, and industrial applications. It features robust performance with dual or single-core x86 processors, high speed and extensive GPIOs.*"
 
-* Built-in WiFi + Bluetooth
+* Although built for WiFi + Bluetooth usage, 
+The ESP32 can be used to measure both Electromagnetic Fields (EMF) and Electromagnetic Interference (EMI), though its built-in ability is initially limited. For high-precision or professional-grade measurements, you generally pair the ESP32 with external sensors.*
+
+**EMF measurement (Magnetic Fields) with ESP32** begins with a built-in Hall effect sensor located behind its metal/plastic lid (a la Tupperware in the fridge). This sensor detects changes in the surrounding magnetic field and can be used for:**
+
+* Proximity: Sensing when a magnet (or something with any amount of magnetism like a barking dog in that NÀSA experiment or the iron in the blood of your veins). Doorknobs, loose change, or your OSHA approved steel toe boots.*
+
+* Basic Magnet Strength: Identifying magnetic poles (North vs. South) and measuring relative field magnitude.*
+
+### 3. Professional Equipment
+At academic institutions or laboratoris could also be used to accomplish this scientific method. i.e.:
+
+Measuring EMI (Electrical Interference)
+can be accomplished via obtaining high-frequency electrical "noise" from the environment. You can build a DIY EMI/EMF detector using:
+
+* Antenna Probe: A simple piece of copper wire or pipe connected to one of the ESP32's Analog-to-Digital pins.
+* Circuit Setup: You can experiment with tuning three sensitivities.
+* Visualizing Data: The equipment may process these signals and display the intensity an OLED screen ideally powered by DC (the AC of the room you're in could result in introduced noise.
+
+## Summary of Approaches
+
+| Method [5, 10, 13] | Complexity | Best For |
+|---|---|---|
+| Built-in Hall Sensor | Very Low | Basic magnet detection, door/window alarms. |
+| Simple Wire Antenna | Low | Detecting "live" AC wires in walls or static electricity. |
 * Higher resolution ADC
 * Wireless streaming
 
@@ -182,7 +208,16 @@ public class EMFVisualizer : MonoBehaviour
 
 ### Description
 
-A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). They emit EMF due to the electrochemical behaviour of the human brain. Static charge is present.
+A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). They emit EMF and due to the electrochemical behaviour of the human brain static charge is present and affected.
+
+## Mitifations
+- Compact fluorescent Lighting
+- fluorescent tube lighting
+- Direct current
+- Metal mesh window covers (quite common)
+ - An alternative is anti-staticnfikters in front of the windows although they're typically more dense and you receive less sunlight.
+- Ground each room of your home such that as you walk through it, whether you're on tile or wood or metal, you're grounded.
+
 
 * The Arduino measures induced EMF
 * Data streams into Unity
