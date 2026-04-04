@@ -1,8 +1,4 @@
-*See more at:
-https://github.com/readydos/AC.EMF.Visual*
-—
-
-# EMF + Alternating Current + Unity 3D Visualization (Arduino Integration)
+# EMF + Alternating Current + Unity 3D Visualization
 
 **Hypothesis**
 
