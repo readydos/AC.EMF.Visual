@@ -1,5 +1,9 @@
 # EMF + Alternating Current + Unity 3D Visualization (Arduino Integration)
 
+**Hypothesis**
+
+*A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). They emit EMF due to the electrochemical behaviour of the human brain. Static charge is present, electrochemical synapses may be effected.*
+
 ## Overview
 
 This project combines:
@@ -178,7 +182,7 @@ public class EMFVisualizer : MonoBehaviour
 
 ### Description
 
-A person moves through a room connected emitting EMF due to the electrochemical behaviour of the human brain. Static charge is present.
+A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). They emit EMF due to the electrochemical behaviour of the human brain. Static charge is present.
 
 * The Arduino measures induced EMF
 * Data streams into Unity
