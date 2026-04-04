@@ -178,7 +178,7 @@ public class EMFVisualizer : MonoBehaviour
 
 ### Description
 
-A user moves a magnet through a copper coil connected to an Arduino.
+A person moves through a room connected emitting EMF due to the electrochemical behaviour of the human brain. Static charge is present.
 
 * The Arduino measures induced EMF
 * Data streams into Unity
