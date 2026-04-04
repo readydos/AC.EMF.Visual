@@ -83,7 +83,7 @@ Unity->>Scene: Update Visualization
 * Although built for WiFi + Bluetooth usage, 
 The ESP32 can be used to measure both Electromagnetic Fields (EMF) and Electromagnetic Interference (EMI), though its built-in ability is initially limited. For high-precision or professional-grade measurements, you generally pair the ESP32 with external sensors.*
 
-Alternatively: a Raspberry Pi CM5 wireless module, then you don't have to worry about the WiFi or Bluetooth interfering with your measurements regardless of disabled or uninstalled. the hardware for those components should be absent.
+**Alternatively**: a Raspberry Pi CM5 wireless module, then you don't have to worry about the WiFi or Bluetooth interfering with your measurements regardless of disabled or uninstalled. the hardware for those components should be absent.
 
 **EMF measurement (Magnetic Fields) with ESP32** begins with a built-in Hall effect sensor located behind its metal/plastic lid (a la Tupperware in the fridge). This sensor detects changes in the surrounding magnetic field and can be used for:**
 
@@ -207,8 +207,7 @@ public class EMFVisualizer : MonoBehaviour
 * Magnetic field lines, humidity measurements, voltage regulators for measuring and filling out the interfaces.
 ---
 
-## Example System (Hypothetical Scene)
-
+## Example System
 ### Description
 
 A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). They emit EMF and due to the electrochemical behaviour of the human brain static charge is present and affected.
