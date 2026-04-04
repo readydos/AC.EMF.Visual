@@ -2,9 +2,13 @@
 
 **Hypothesis**
 
-**A person moves through a room wired with alternating current, powering ceiling lights and US/CA style outlets (😯). European and Asian style outlets are also subject to this isuue because alternating current is globally present. Wiring from the circuit breaker to each outlet emits EMF (imagine an invisible tube around the wires).**
+**A room wired with alternating current powers ceiling lights, appliances, your personal computer, etc., via the outlets, with or without anything plugged in, EMI/EMF is emitted. Then, a person moves through the room.**
 
-**Due to the electrochemical behaviour of the human brain such as sodium ion channels, and generally phosphorus-containing compounds contribute to the overall magnetic environment of your tissues. Static charge deltas to the human brain can be measured leading to electrochemical synapses triggered (similarly to Neuralink although over a distance.)**
+**Due to the electrochemical behaviour of the human brain, such as the sodium ion channels, phosphorus-containing compounds that contribute to the overall magnetic environment of your tissue, static charge deltas to the human brain can be measured leading to electrochemical synapses triggered (similarly to Neuralink although over a distance.)**
+
+--- 
+It is also worth exploring the effect of certain sources of light on the human brain.  entering the retina at particular frequencies (AC, LED) with introduced noise or manipulations. I am unable to do accomplish these experiments myself at the current moment. Although fluorescent light doesn't flicker and direct current emits an order of magnitude less EMI than alternating current. The scientific method should be applied here, although not in this article.
+--- 
 
 ## Overview
 
@@ -73,26 +77,30 @@ Unity->>Scene: Update Visualization
 * Sends data via Serial (USB)
 
 ### 2. ESP32 (Better Performance)
-"*The ESP32 is a low-cost, low-power system on a chip (SoC) microcontroller with integrated Wi-Fi and Bluetooth, designed by Espressif Systems for IoT, wearables, and industrial applications. It features robust performance with dual or single-core x86 processors, high speed and extensive GPIOs.*"
+"*The ESP32 is a low-cost, low-power system on a chip (SoC) microcontrollerndesigned by Espressif Systems for IoT, wearables, and industrial applications. It features sufficient performance with dual or single-core x86 processors, high speed and extensive GPIOs.*"
 
 * Although built for WiFi + Bluetooth usage, 
 The ESP32 can be used to measure both Electromagnetic Fields (EMF) and Electromagnetic Interference (EMI), though its built-in ability is initially limited. For high-precision or professional-grade measurements, you generally pair the ESP32 with external sensors.*
 
+Alternatively: a Raspberry Pi CM5 wireless module, then you don't have to worry about the WiFi or Bluetooth interfering with your measurements regardless of disabled or uninstalled. the hardware for those components should be absent.
+
 **EMF measurement (Magnetic Fields) with ESP32** begins with a built-in Hall effect sensor located behind its metal/plastic lid (a la Tupperware in the fridge). This sensor detects changes in the surrounding magnetic field and can be used for:**
 
-* Proximity: Sensing when a magnet (or something with any amount of magnetism like a barking dog in that NÀSA experiment or the iron in the blood of your veins). Doorknobs, loose change, or your OSHA approved steel toe boots.*
+* Proximity: Sensing when a magnet (or something with any amount of magnetism like that barking dog in the NÀSA experiment or the iron in the blood of your veins). Doorknobs, loose change, or your OSHA approved steel toe boots.*
 
 * Basic Magnet Strength: Identifying magnetic poles (North vs. South) and measuring relative field magnitude.*
 
 ### 3. Professional Equipment
-At academic institutions or laboratoris could also be used to accomplish this scientific method. i.e.:
+At academic institutions or laboratories could also be used to accomplish this scientific method. i.e.:
 
 Measuring EMI (Electrical Interference)
 can be accomplished via obtaining high-frequency electrical "noise" from the environment. You can build a DIY EMI/EMF detector using:
 
 * Antenna: A simple piece of copper wire or pipe connected to one of the ESP32's Analog-to-Digital pins.
-* Circuit Setup: You can experiment with tuning three sensitivities.
-* Visualizing Data: The equipment may process these signals and display the intensity an OLED screen ideally powered by DC (the AC of the room you're in could result in introduced noise.
+
+* Circuit Setup: You can experiment with tuning the sensitivities.
+
+* Visualizing Data: The equipment may process these signals and display the intensity an OLED screen ideally powered by DC (the AC of the room you're in could result in introduced noise and the variability of your measurements could be usedless. you should shield the wiring with electric tapeifyoure frugal or use audiophile equipment, although more expensive (e.g.: C15 connector to a power supply was around 234 dollars.)
 
 ## Summary of Approaches
 
