@@ -217,9 +217,8 @@ A person moves through a room wired with alternating current such as potlights a
 - fluorescent tube lighting
 - Direct current
 - Metal mesh window covers (quite common)
- - An alternative is anti-staticnfikters in front of the windows although they're typically more dense and you receive less sunlight.
-- Ground each room of your home such that as you walk through it, whether you're on tile or wood or metal, you're grounded.
-
+ - An alternative is anti-staticfilters in front of the windows although they're typically more dense and you receive less sunlight.
+- Ground the room such that as you walk through it, whether you're on tile or wood or metal, you're grounded. (An example is a copper wire taped to the drywall and inserted securely in the grounding inlet of the electrical outlet, pre-floor installation).
 
 * The Arduino measures induced EMF
 * Data streams into Unity
