@@ -1,3 +1,7 @@
+*See more at:
+https://github.com/readydos/AC.EMF.Visual*
+—
+
 # EMF + Alternating Current + Unity 3D Visualization (Arduino Integration)
 
 **Hypothesis**
@@ -69,7 +73,6 @@ Unity->>Scene: Update Visualization
 ---
 
 ## Hardware Options
-
 ### 1. Arduino (Recommended Starter)
 
 * Arduino Uno / Nano / Mega
@@ -77,7 +80,7 @@ Unity->>Scene: Update Visualization
 * Sends data via Serial (USB)
 
 ### 2. ESP32 (Better Performance)
-"*The ESP32 is a low-cost, low-power system on a chip (SoC) microcontrollerndesigned by Espressif Systems for IoT, wearables, and industrial applications. It features sufficient performance with dual or single-core x86 processors, high speed and extensive GPIOs.*"
+"*The ESP32 is a low-cost, low-power system on a chip (SoC) microcontroller designed by Espressif Systems for IoT, wearables, and industrial applications. It features sufficient performance with dual or single-core x86 processors, high speed and extensive GPIOs.*"
 
 * Although built for WiFi + Bluetooth usage, 
 The ESP32 can be used to measure both Electromagnetic Fields (EMF) and Electromagnetic Interference (EMI), though its built-in ability is initially limited. For high-precision or professional-grade measurements, you generally pair the ESP32 with external sensors.*
@@ -100,21 +103,18 @@ can be accomplished via obtaining high-frequency electrical "noise" from the env
 
 * Circuit Setup: You can experiment with tuning the sensitivities.
 
-* Visualizing Data: The equipment may process these signals and display the intensity an OLED screen ideally powered by DC (the AC of the room you're in could result in introduced noise and the variability of your measurements could be usedless. you should shield the wiring with electric tapeifyoure frugal or use audiophile equipment, although more expensive (e.g.: C15 connector to a power supply was around 234 dollars.)
+* Visualizing Data: The equipment may process these signals and display the intensity an OLED screen ideally powered by DC (the AC of the room you're in could result in introduced noise and the variability of your measurements could be useless. You should shield the wiring with electric tape if you're frugal or use audiophile equipment, although more expensive (e.g.: A professional audio grade C15 connector to a power supply was around 234 dollars.)
 
-## Summary of Approaches
+## Summary of some potential approaches
 
 | Method [5, 10, 13] | Complexity | Best For |
 |---|---|---|
 | Built-in Hall Sensor | Very Low | Basic magnet detection, door/window alarms. |
 | Simple Wire Antenna | Low | Detecting "live" AC wires in walls or static electricity. |
-* Higher resolution ADC
-* Wireless streaming
 
 ### 3. DAQ Devices (Advanced)
 
 * High precision acquisition
-
 ---
 
 ## EMF & AC Concepts (Quick Reference)
@@ -243,4 +243,5 @@ graph LR
 ```
 
 ---
+
 
