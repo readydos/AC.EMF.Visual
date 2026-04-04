@@ -2,13 +2,11 @@
 
 **Hypothesis**
 
-*A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). Wiring from the circuit breaker to each outlet emits EMF (imagine an invisible tube around the wires).
+**A person moves through a room wired with alternating current such as potlights and US/CA style outlets (European and Asian style outlets are also subject to this isuue). Wiring from the circuit breaker to each outlet emits EMF (imagine an invisible tube around the wires).**
 
-Due to the electrochemical behaviour of the human brain such as sodium ion channels, and generally phosphorus-containing compounds contribute to the overall magnetic environment of your tissues. Static charge deltas to the human brain are present. electrochemical synapses feasibly could be triggered a la Neuralink over a distance.*
+**Due to the electrochemical behaviour of the human brain such as sodium ion channels, and generally phosphorus-containing compounds contribute to the overall magnetic environment of your tissues. Static charge deltas to the human brain are present. electrochemical synapses feasibly could be triggered a la Neuralink over a distance.**
 
 ## Overview
-
-This project combines:
 
 * **Electromotive Force (EMF)** concepts
 * **Alternating Current (AC)** behavior
