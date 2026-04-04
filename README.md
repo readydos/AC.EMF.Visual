@@ -81,15 +81,15 @@ Unity->>Scene: Update Visualization
 "*The ESP32 is a low-cost, low-power system on a chip (SoC) microcontroller designed by Espressif Systems for IoT, wearables, and industrial applications. It features sufficient performance with dual or single-core x86 processors, high speed and extensive GPIOs.*"
 
 * Although built for WiFi + Bluetooth usage, 
-The ESP32 can be used to measure both Electromagnetic Fields (EMF) and Electromagnetic Interference (EMI), though its built-in ability is initially limited. For high-precision or professional-grade measurements, you generally pair the ESP32 with external sensors.*
+The ESP32 can be used to measure both Electromagnetic Fields (EMF) and Electromagnetic Interference (EMI), though its built-in ability is initially limited. For high-precision or professional-grade measurements, you generally pair the ESP32 with external sensors.
 
 **Alternatively**: a Raspberry Pi CM5 wireless module, then you don't have to worry about the WiFi or Bluetooth interfering with your measurements regardless of disabled or uninstalled. the hardware for those components should be absent.
 
-**EMF measurement (Magnetic Fields)** with ESP32** begins with a built-in Hall effect sensor located behind its metal/plastic lid (a la Tupperware in the fridge). This sensor detects changes in the surrounding magnetic field and can be used for:**
+**EMF measurement (Magnetic Fields)** with ESP32** begins with a built-in Hall effect sensor located behind its metal/plastic lid (a la Tupperware in the fridge). This sensor detects changes in the surrounding magnetic field and can be used for:
 
-* Proximity: Sensing when a magnet (or something with any amount of magnetism like that barking dog in the NÀSA experiment or the iron in the blood of your veins). Doorknobs, loose change, or your OSHA approved steel toe boots.*
+* Proximity: Sensing when a magnet (or something with any amount of magnetism like that barking dog in the NÀSA experiment or the iron in the blood of your veins). Doorknobs, loose change, or your OSHA approved steel toe boots.
 
-* Basic Magnet Strength: Identifying magnetic poles (North vs. South) and measuring relative field magnitude.*
+* Basic Magnet Strength: Identifying magnetic poles (North vs. South) and measuring relative field magnitude.
 
 ### 3. Professional Equipment
 At academic institutions or laboratories could also be used to accomplish this scientific method. i.e.:
