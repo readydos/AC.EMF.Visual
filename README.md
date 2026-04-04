@@ -24,7 +24,7 @@ The goal is to measure or simulate EMF/AC signals and visualize them dynamically
 
 ---
 
-## 0otential System Architecture
+## Potential System Architecture
 
 ### High-Level Diagram
 
